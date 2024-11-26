@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div class="prime"> -->
+        <header class="header">
+            <div class="container header_container">
+              <div class="swiper-wrapper">
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./assets/images/header-slide.png"></div>
+                  <div class="swiper-slide"><img src="./assets/images/header-slide.png"></div>
+                  <div class="swiper-slide"><img src="./assets/images/header-slide.png"></div>
+                  <div class="swiper-slide"><img src="./assets/images/header-slide.png"></div>
+                  <div class="swiper-slide"><img src="./assets/images/header-slide.png"></div>
+                </div>
+              </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                  var swiper = new Swiper(".mySwiper", {
+                    loop: true,  
+                    direction: 'horizontal', 
+                    rewind: true,  
+                    slidesPerView: 1, 
+                    autoplay: {
+                    delay: 2500, 
+                    disableOnInteraction: false,
+                    },
+                  });
+
+                </script>
+              </div>
+                <nav aria-label="Primary" class="header__nav">
+                    <ul>
+                      <li class="name">EUROBUILD</li>
+                      <li><a href="">მთავარი გვერდი</a></li>
+                      <li><a href="">კატალოგი</a></li>
+                      <li><a href="">სიახლეები</a></li>
+                      <li><a href="">ჩვენ შესახებ</a></li>
+                      <li><a href="">გალერეა</a></li>
+                      <li><a href="">კონტაქტი</a></li>
+                    </ul>
+                    <img src="./assets/images/Group 4609.svg" class="language-icon">
+                    <select id="language">
+                    </div>
+                      <option>ქართ</option>
+                    </select>
+                  </nav>
+                </div> 
+                </header>
+
+        <section class="eurobuild container">
+        <div class="text-container">
+          <div class="text-container__title">
+            <h3>ევრობილდი</h3>
+              <p class="text-container__paragraph">
+                  ჰაიდელბერგცემენტი გლობალურ ბაზარზე სამშენებლო მასალების წარმოების აღიარებული ლიდერია. 
+                  კომპანია მსოფლიოს 60 ქვეყანაში 3000 ქარხნითა და 60000-ზე მეტი დასაქმებულითაა წარმოდგენილი. 
+                  კომპანიას მოწინავე პოზიცია უჭირავს ცემენტის და ბეტონის წარმოებაში. იტალიური მწარმოებლის - 
+                  „იტალცემენტის“ შეერთების შემდეგ კომპანიამ პირველი ადგილი დაიკავა ინერტული მასალების წარმოების
+                  მიმართულებით. 
+                </p>
+                  <p class="text-container__paragraph">ჰაიდელბერგცემენტი წამყვანი ბრენდია საქართველოს ცემენტის ბაზარზე. ის ამარაგებს 
+                  თითქმის ყველა მსხვილ სამშენებლო პროექტს ცემენტით და ბეტონით, მეტიც, კომპანია წარმოადგენს
+                  კლინკერის ერთადერთ მწარმოებელს ქვეყანაში.
+                </p>
+                <p class="text-container__paragraph">
+                  დღეისათვის ჰაიდელბერგცემენტს 200 მილიონ ევროზე მეტი
+                  ინვესტიცია აქვს განხორციელებული საქართველოში, რაც, ძირითადად, ცემენტის არსებული ქარხნების 
+                  მოდერნიზაციაზე, ასევე ბეტონის და ინერტული მასალების საწარმოო ხაზის გაფართოებაზე იყო ორიენტირებული.
+                </p>
+            </div>
+          </div>
+                
+          <div class="services-container"> 
+            <div class="services-container__title">
+              <h3 class="underlined"><span>ჩვენი სერვისები</span></h3>
+            </div>
+
+            <div class="services-container__list">
+              <div class="services-container__item">
+                <img src="./assets/images/services/service1.png">
+                <div class="item-description">
+                  <p>კომპანიის სერვისი 1</p>
+                  <p>ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
+                  <a>იხილეთ ვრცლად</a>
+                </div>
+              </div>
+
+              <div class="services-container__item">
+                <img src="./assets/images/services/service2.png">
+                <div class="item-description">
+                  <p>კომპანიის სერვისი 1</p>
+                  <p>ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
+                  <a>იხილეთ ვრცლად</a>
+                </div>
+              </div>
+
+              <div class="services-container__item">
+                <img src="./assets/images/services/service3.png">
+                <div class="item-description">
+                  <p>კომპანიის სერვისი 1</p>
+                  <p>ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
+                  <a>იხილეთ ვრცლად</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="news-container">
+            <div class="news-container__title">
+              <h3 class="underlined"><span>სიახლეები</span></h3>
+            </div>
+          </div>
+        </section>
+<!-- 
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="name-box">
+              <h3>EUROBUILD</h3>
+            </div>
+            <p>copyright: wevetech 2021</p>
+            <div class="footer-icons">
+              <img src="./assets/images/footer-icons/icon1.svg">
+              <img src="./assets/images/footer-icons/icon2.svg">
+              <img src="./assets/images/footer-icons/icon3.svg">
+            </div>
+            <p>ცხელი ხაზი: 0322 52 43 43</p>
+          </div>
+        </footer> -->
+</body>
+</html>
