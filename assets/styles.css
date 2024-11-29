@@ -66,7 +66,6 @@ img {
 .header__nav .name {
   width: 272px;
   height: 71px;
-  /* color: var(--unnamed-color-2c4861); */
   text-align: left;
   font: normal normal 600 50px/76px Poppins;
   letter-spacing: 0px;
@@ -412,15 +411,15 @@ img {
 }
 
 
+
 .materials{
-  background-color: #E1E1E1;
+  background-color: rgba(225, 225, 225, 0.3); 
 }
 
 .materials-container{
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  background-color: #E1E1E1;
   z-index: 2;
   padding-top: 152px;
   padding-bottom: 152px;
@@ -460,11 +459,6 @@ img {
 
 
 
-
-
-
-
-
 .footer{
   box-sizing: border-box;
   padding-top: 2.5rem;
@@ -482,8 +476,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-
-
 
 .footer__container {
   display: flex; 
@@ -511,18 +503,15 @@ img {
 
 .footer__catalog-title{
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
 }
 
 .footer__catalog-list {
   list-style: none;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .footer__catalog-item {
   margin: 5px 0;
 }
-
-
-
