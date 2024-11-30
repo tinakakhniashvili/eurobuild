@@ -43,6 +43,10 @@ img {
   position: fixed;
 }
 
+.header__nav a{
+  font-size: 1.3rem;
+}
+
 .header__nav ul {
   display: flex;
   align-items: center;
@@ -220,8 +224,6 @@ img {
   padding-bottom: 52px;
 }
 
-
-
 .slide-image-container img {
   width: 610px;
   height: 325px;
@@ -277,6 +279,19 @@ img {
   position: relative;
   z-index: 1;
   margin: 0 auto;
+}
+
+.contact-info__title{
+  margin-bottom: 1rem;
+}
+
+.contact-info__address{
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.contact-info__details{
+  width: 549px;
 }
 
 .contact-info__color {
@@ -413,6 +428,7 @@ img {
 
 .materials{
   background-color: rgba(225, 225, 225, 0.3); 
+  margin-bottom: 13rem;
 }
 
 .materials-container{
