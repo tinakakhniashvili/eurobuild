@@ -206,8 +206,8 @@ img {
 
 .item-description a {
   color: #0074db;
-  text-align: right;
-  cursor: pointer;
+  position: absolute; 
+  right: 0; 
 }
 
 .news-container {
@@ -219,6 +219,7 @@ img {
   flex-wrap: wrap;
   padding-bottom: 52px;
 }
+
 
 .slide-image-container img {
   width: 610px;
@@ -477,9 +478,15 @@ img {
 .slide-image-container__text-wrappe.price{
    font-size: 1.6rem;
 }
-.slide-image-container__text-wrappe.description{
-  font-size: 0.5rem;
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  height: 3em;
+  line-height: 1.5em;
+  white-space: normal;
 }
+
 
 
 .footer{
