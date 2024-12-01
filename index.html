@@ -401,8 +401,19 @@
               <li class="footer__catalog-item">კონტაქტი</li>
             </ul>
           </div>
+          <div class="swipe-up"><img src="./assets/images/up.svg"></div>
         </div>
       </div>
     </footer>
+
+    <script>
+      document.querySelector('.swipe-up').addEventListener('click', function() {
+        window.scrollTo({
+          top: 0, 
+          behavior: 'smooth' 
+        });
+      });
+    </script>
+    
 </body>
 </html>
