@@ -180,7 +180,7 @@ img {
   align-items: center;
   margin: 0 auto;
   width: 1234px;
-  margin-bottom: 124px;
+  margin-bottom: 11rem;
 }
 
 .services__title {
@@ -228,6 +228,7 @@ img {
   background-color: white;
   position: relative;
   float: right;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 .services__item-description a {
@@ -273,7 +274,7 @@ img {
 .news {
   width: 1234px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 12rem;
   position: relative;
   overflow: visible;
 }
@@ -406,7 +407,15 @@ img {
   display: flex;
   flex-direction: row;
   gap: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
+
+.contact-info__join{
+  color: #47a4f5;
+}
+
+/* VACANSIES */
 
 .vacancies {
   width: 100%;
@@ -423,6 +432,7 @@ img {
   justify-content: space-between;
   width: 1234px;
   padding-bottom: 2rem;
+  margin-top: 7rem;
 }
 
 .vacancies__list {
@@ -600,7 +610,7 @@ img {
   display: flex;
   flex: 1 1 70%;
   justify-content: space-between;
-  gap: 14rem;
+  gap: 12rem;
 }
 
 .footer__catalog-title {
