@@ -19,7 +19,6 @@ ul{
 a {
   text-decoration: none;
   cursor: pointer;
-  color: black;
 }
 
 img {
@@ -90,6 +89,10 @@ img {
   letter-spacing: 0px;
   color: #2c4861;
   margin: 0 395px 0 0;
+}
+
+.header__nav-item a{
+  color: black;
 }
 
 .header__nav li {
@@ -419,6 +422,8 @@ img {
 
 .contact-info__join{
   color: #47a4f5;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
 }
 
 /* VACANSIES */
@@ -559,7 +564,7 @@ img {
 .slide-image-container__title {
   font-size: 25px;
   color: #47a4f5;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 .slide-image-container__text-wrapper span {
@@ -568,7 +573,7 @@ img {
 
 .slide-image-container__text-wrapper .price {
   font-size: 1.2rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .description {
@@ -637,16 +642,17 @@ img {
 
 .footer__catalog-item {
   margin: 5px 0;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer__catalog-item a{
+  color: white;
 }
 
 .footer__copyright{
   margin-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.footer__catalog-item {
-  font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 .swipe-up {
