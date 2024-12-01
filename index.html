@@ -125,6 +125,11 @@
               <h3 class="underlined"><span>სიახლეები</span></h3>
             </div>
           </div>
+        </div>
+        <div class="buttons">
+        <div class="previous"><img src="./assets/images/second-swiper-btn.svg"></div>
+        <div class="next"><img src="./assets/images/second-swiper-btn.svg"></div>
+      </div>
           <div class="swiper customSwiper1">
             <div class="swiper-wrapper">
 
@@ -178,19 +183,15 @@
               </div>
             </div>
 
-            <!-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div> -->
-          </div>
-
           <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
           <script>
             var customSwiper1 = new Swiper(".customSwiper1", {
               slidesPerView: 2,
-              // navigation: {
-              //   nextEl: ".swiper-button-next",
-              //   prevEl: ".swiper-button-prev",
-              // },
+              navigation: {
+                nextEl: ".next",
+                prevEl: ".previous",
+              },
               loop: true,
               slideToClickedSlide: true,
             });
