@@ -11,7 +11,7 @@
 <body>
     <!-- <div class="prime"> -->
         <header class="header">
-            <div class="container header_container">
+            <div class="header_container">
               <div class="swiper-wrapper">
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -41,77 +41,78 @@
                 </script>
               </div>
                 <nav aria-label="Primary" class="header__nav">
-                    <ul>
-                      <li class="name">EUROBUILD</li>
-                      <li><a href="" class="main-page-link">მთავარი გვერდი</a></li>
-                      <li><a href="">კატალოგი</a></li>
-                      <li><a href="">სიახლეები</a></li>
-                      <li><a href="">ჩვენ შესახებ</a></li>
-                      <li><a href="">გალერეა</a></li>
-                      <li><a href="">კონტაქტი</a></li>
+                    <ul class="header__nav-list">
+                      <li class="header__nav-item header__nav-item--name">EUROBUILD</li>
+                      <li class="header__nav-item"><a href="" class="main-page-link">მთავარი გვერდი</a></li>
+                      <li class="header__nav-item"><a href="">კატალოგი</a></li>
+                      <li class="header__nav-item"><a href="">სიახლეები</a></li>
+                      <li class="header__nav-item"><a href="">ჩვენ შესახებ</a></li>
+                      <li class="header__nav-item"><a href="">გალერეა</a></li>
+                      <li class="header__nav-item"><a href="">კონტაქტი</a></li>
                     </ul>
-                    <img src="./assets/images/Group 4609.svg" class="language-icon">
+                    <img src="./assets/images/Group 4609.svg" class="header__language-icon">
                     <select id="language">
                     </div>
                       <option>ქართ</option>
                     </select>
                   </nav>
                 </div> 
-                </header>
+              </header>
 
-        <section class="eurobuild container">
-        <div class="text-container">
-          <div class="text-container__title">
-            <h3>ევრობილდი</h3>
-              <p class="text-container__paragraph">
+      <section class="company-info">
+        <div class="company-info__text-container">
+          <div class="company-info__text-container-title">
+            <h3 class="company-info__title">ევრობილდი</h3>
+              <p class="company-info__paragraph">
                   ჰაიდელბერგცემენტი გლობალურ ბაზარზე სამშენებლო მასალების წარმოების აღიარებული ლიდერია. 
                   კომპანია მსოფლიოს 60 ქვეყანაში 3000 ქარხნითა და 60000-ზე მეტი დასაქმებულითაა წარმოდგენილი. 
                   კომპანიას მოწინავე პოზიცია უჭირავს ცემენტის და ბეტონის წარმოებაში. იტალიური მწარმოებლის - 
                   „იტალცემენტის“ შეერთების შემდეგ კომპანიამ პირველი ადგილი დაიკავა ინერტული მასალების წარმოების
                   მიმართულებით. 
                 </p>
-                  <p class="text-container__paragraph">ჰაიდელბერგცემენტი წამყვანი ბრენდია საქართველოს ცემენტის ბაზარზე. ის ამარაგებს 
+                  <p class="company-info__paragraph">ჰაიდელბერგცემენტი წამყვანი ბრენდია საქართველოს ცემენტის ბაზარზე. ის ამარაგებს 
                   თითქმის ყველა მსხვილ სამშენებლო პროექტს ცემენტით და ბეტონით, მეტიც, კომპანია წარმოადგენს
                   კლინკერის ერთადერთ მწარმოებელს ქვეყანაში.
                 </p>
-                <p class="text-container__paragraph">
+                <p class="company-info__paragraph">
                   დღეისათვის ჰაიდელბერგცემენტს 200 მილიონ ევროზე მეტი
                   ინვესტიცია აქვს განხორციელებული საქართველოში, რაც, ძირითადად, ცემენტის არსებული ქარხნების 
                   მოდერნიზაციაზე, ასევე ბეტონის და ინერტული მასალების საწარმოო ხაზის გაფართოებაზე იყო ორიენტირებული.
                 </p>
             </div>
           </div>
-                
-          <div class="services-container"> 
-            <div class="services-container__title">
+         </section>   
+          
+          <section class="services"> 
+            <div class="services__title">
               <h3 class="underlined"><span>ჩვენი სერვისები</span></h3>
             </div>
 
-            <div class="services-container__list">
-              <div class="services-container__item">
-                <img src="./assets/images/services/service1.png">
-                <div class="item-description">
-                  <p>კომპანიის სერვისი 1</p>
-                  <p>ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
-                  <a href="#">იხილეთ ვრცლად</a>
+            <div class="services__list">
+              <div class="services__item">
+                <img src="./assets/images/services/service1.png " alt="Service 1">
+                <div class="services__item-description">
+                  <p class="services__item-title">კომპანიის სერვისი 1</p>
+                  <p class="services__item-text">ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
+                  <a href="#" class="services__item-link">იხილეთ ვრცლად</a>
                 </div>
               </div>
 
-              <div class="services-container__item">
-                <img src="./assets/images/services/service2.png">
-                <div class="item-description">
-                  <p>კომპანიის სერვისი 1</p>
-                  <p>ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
-                  <a href="#">იხილეთ ვრცლად</a>
+              <div class="services__item">
+                <img src="./assets/images/services/service2.png " alt="Service 2">
+                <div class="services__item-description">
+                  <p class="services__item-title">კომპანიის სერვისი 2</p>
+                  <p class="services__item-text">ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
+                  <a href="#" class="services__item-link">იხილეთ ვრცლად</a>
                 </div>
               </div>
 
-              <div class="services-container__item">
-                <img src="./assets/images/services/service3.png">
-                <div class="item-description">
-                  <p>კომპანიის სერვისი 1</p>
-                  <p>ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
-                  <a href="#">იხილეთ ვრცლად</a>
+              <div class="services__item">
+                <img src="./assets/images/services/service3.png " alt="Service 3">
+                <div class="services__item-description">
+                  <p class="services__item-title">კომპანიის სერვისი 3</p>
+                  <p class="services__item-text">ეფექტური და სტაბილური ბიზნეს მოდელი საშუალებას გვაძლევს...</p>
+                  <a href="#" class="services__item-link">იხილეთ ვრცლად</a>
                 </div>
               </div>
             </div>
