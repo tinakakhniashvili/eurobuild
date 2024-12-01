@@ -1,3 +1,14 @@
+:root {
+  --primary-color: #0059a8;
+  --secondary-color: #47a4f5;
+  --accent-color: #00315c;
+  --white-color: #ffffff;
+  --text-color-dark: #2c4861;
+  --black-color: black;
+  --transparent-background: rgba(71, 164, 245, 0.3);
+  --header-box-shadow: #00000029;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,8 +52,8 @@ img {
   align-items: center;
   padding: 0 31px;
   height: 131px;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  box-shadow: 0px 8px 30px #00000029;
+  background: var(--white-color) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 30px var(--header-box-shadow);
   position: fixed;
 }
 
@@ -61,7 +72,7 @@ img {
   left: 50%;
   height: 3px;
   margin-top: 3px;
-  background-color: #0059a8;
+  background-color: var(--primary-color);
   display: block;
   transform: translateX(-50%);
 }
@@ -75,8 +86,8 @@ img {
   width: 106px;
   height: 34px;
   border-radius: 10px;
-  background: black;
-  color: white;
+  background: var(--black-color);
+  color: var(--white-color);
   opacity: 0.2;
   padding: 5px 5px 5px 2.2rem;
 }
@@ -92,7 +103,7 @@ img {
 }
 
 .header__nav-item a{
-  color: black;
+  color: var(--black-color);
 }
 
 .header__nav li {
@@ -110,7 +121,7 @@ img {
 .language-text {
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /*Swiper header*/
@@ -137,7 +148,7 @@ img {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #00315c 0% 0% no-repeat padding-box;
+  background: var(--accent-color) 0% 0% no-repeat padding-box;
   opacity: 0.2;
   z-index: 2;
   pointer-events: none;
@@ -203,7 +214,7 @@ img {
   left: 0;
   width: calc(100% + 64px);
   height: 3px;
-  background: #0059a8;
+  background: var(--primary-color);
 }
 
 .services__item {
@@ -233,7 +244,7 @@ img {
   width: 309px;
   height: 149px;
   margin-top: -30px;
-  background-color: white;
+  background-color: var(--white-color);
   position: relative;
   float: right;
   padding: 1rem 1rem 1rem 1rem;
@@ -289,13 +300,13 @@ img {
 }
 
 .news-slider__details {
-  color: #47a4f5;
+  color: var(--secondary-color);
 }
 
 .news-slider__separator {
   width: 212px;
   height: 1px;
-  background-color: #47a4f5;
+  background-color: var(--secondary-color);
   border: none;
 }
 
@@ -317,7 +328,7 @@ img {
   align-items: center;
   width: 80px;
   height: 80px;
-  background-color: #47A4F5;
+  background-color: var(--secondary-color);
   border-radius: 25%;
   cursor: pointer;
   opacity: 0.8;
@@ -372,7 +383,7 @@ img {
   right: 0;
   bottom: 0;
   width: calc(50vw - 960px);
-  background-color: rgba(71, 164, 245, 0.3);
+  background-color: var(--transparent-background);
   z-index: 0;
 }
 
@@ -382,7 +393,7 @@ img {
   bottom: 0;
   margin-left: 45rem;
   width: 1200px;
-  background-color: rgba(71, 164, 245, 0.3);
+  background-color: var(--transparent-background);
   z-index: 0;
 }
 
@@ -421,7 +432,7 @@ img {
 }
 
 .contact-info__join{
-  color: #47a4f5;
+  color: var(--secondary-color);
   font-size: 0.9rem;
   margin-top: 0.6rem;
 }
@@ -460,7 +471,7 @@ img {
 .vacancies__item {
   width: 1234px;
   height: 133px;
-  background: rgba(71, 164, 245, 0.3) 0% 0% no-repeat padding-box;
+  background: var(--transparent-background) 0% 0% no-repeat padding-box;
   border-radius: 3px;
   display: flex;
   flex-direction: row;
@@ -485,15 +496,15 @@ img {
 
 .vacancies__value,
 .vacancies__view-all {
-  color: #47a4f5;
+  color: var(--secondary-color);
 }
 
 .vacancies__button {
   width: 132px;
   height: 41px;
-  background: #47a4f5 0% 0% no-repeat padding-box;
+  background: var(--secondary-color) 0% 0% no-repeat padding-box;
   border: none;
-  color: white;
+  color: var(--white-color);
   border-radius: 3px;
 }
 
@@ -555,7 +566,7 @@ img {
   transform: translate(-50%, -50%);
   width: 496px;
   height: 197px;
-  background-color: white;
+  background-color: var(--white-color);
   padding: 20px;
   z-index: 2;
   box-sizing: border-box;
@@ -563,12 +574,12 @@ img {
 
 .slide-image-container__title {
   font-size: 25px;
-  color: #47a4f5;
+  color: var(--secondary-color);
   margin-bottom: 0.5rem;
 }
 
 .slide-image-container__text-wrapper span {
-  color: #47a4f5;
+  color: var(--secondary-color);
 }
 
 .slide-image-container__text-wrapper .price {
@@ -598,7 +609,7 @@ img {
 .footer__brand {
   width: 291px;
   height: 93px;
-  background-color: white;
+  background-color: var(--white-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -615,7 +626,7 @@ img {
 .wrapper {
   flex: 1 1 20%;
   max-width: 30%;
-  color: white;
+  color: var(--white-color);
 }
 
 .footer__brand-name {
@@ -630,13 +641,13 @@ img {
 }
 
 .footer__catalog-title {
-  color: white;
+  color: var(--white-color);
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
 .footer__catalog-list {
-  color: white;
+  color: var(--white-color);
   font-size: 1.2rem;
 }
 
@@ -647,7 +658,7 @@ img {
 }
 
 .footer__catalog-item a{
-  color: white;
+  color: var(--white-color);
 }
 
 .footer__copyright{
@@ -663,7 +674,7 @@ img {
   right: calc(10px - 15rem);
   cursor: pointer;
   opacity: 0.55;
-  background-color: rgba(71, 164, 245, 0.3);
+  background-color: var(--transparent-background);
   border-radius: 20px;
   display: flex;
   align-items: center;
