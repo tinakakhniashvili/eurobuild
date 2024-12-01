@@ -480,6 +480,7 @@ img {
 
 .vacancies__detail1 {
   margin-right: -2.8rem;
+  text-align: center;
 }
 
 .vacancies__value,
@@ -497,8 +498,7 @@ img {
 }
 
 .vacancies__detail {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 /* MATERIALS */
