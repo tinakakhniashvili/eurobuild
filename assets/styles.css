@@ -8,11 +8,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h3{
+h3 {
   font-size: 40px;
 }
 
-a{
+a {
   text-decoration: none;
   cursor: pointer;
   color: black;
@@ -43,22 +43,22 @@ img {
   position: fixed;
 }
 
-.header__nav a{
+.header__nav a {
   font-size: 1.3rem;
 }
 
-.main-page-link{
+.main-page-link {
   position: relative;
 }
 
-.main-page-link::after{
+.main-page-link::after {
   content: "";
   position: absolute;
-  width: 115%; 
+  width: 115%;
   left: 50%;
   height: 3px;
   margin-top: 3px;
-  background-color: #0059A8;
+  background-color: #0059a8;
   display: block;
   transform: translateX(-50%);
 }
@@ -79,7 +79,7 @@ img {
   padding: 5px 5px 5px 2.2rem;
 }
 
-.header__nav-item--name{
+.header__nav-item--name {
   width: 272px;
   height: 71px;
   text-align: left;
@@ -120,8 +120,8 @@ img {
 }
 
 .swiper-slide img {
-  width: 100%; 
-  height: auto; 
+  width: 100%;
+  height: auto;
 }
 
 .header .swiper-wrapper:before {
@@ -148,7 +148,7 @@ img {
   width: 1234px;
 }
 
-.company-info__text-container-title{
+.company-info__text-container-title {
   display: flex;
   flex-direction: column;
   width: 1234px;
@@ -165,8 +165,8 @@ img {
   margin-bottom: 84px;
 }
 
-.company-info__paragraph{
-  font-size: 20px;;
+.company-info__paragraph {
+  font-size: 20px;
 }
 
 /* SERVICES */
@@ -185,7 +185,6 @@ img {
   width: 100%;
 }
 
-
 .underlined span {
   display: inline-block;
   position: relative;
@@ -201,7 +200,7 @@ img {
   background: #0059a8;
 }
 
-.services__item{
+.services__item {
   padding-top: 53px;
   width: 396px;
   height: 194px;
@@ -230,8 +229,8 @@ img {
 
 .services__item-description a {
   color: #0074db;
-  position: absolute; 
-  right: 0; 
+  position: absolute;
+  right: 0;
 }
 
 /* NEWS */
@@ -264,7 +263,7 @@ img {
   flex-direction: column;
   align-items: left;
   width: 610px;
-  text-align: left 
+  text-align: left;
 }
 
 .news {
@@ -273,15 +272,14 @@ img {
   margin-bottom: 100px;
 }
 
-
-.news-slider__details{
-  color: #47A4F5;
+.news-slider__details {
+  color: #47a4f5;
 }
 
-.news-slider__separator{
+.news-slider__separator {
   width: 212px;
-  height: 1px; 
-  background-color: #47A4F5;
+  height: 1px;
+  background-color: #47a4f5;
   border: none;
 }
 
@@ -304,16 +302,16 @@ img {
   margin: 0 auto;
 }
 
-.contact-info__title{
+.contact-info__title {
   margin-bottom: 1rem;
 }
 
-.contact-info__address{
+.contact-info__address {
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 
-.contact-info__details{
+.contact-info__details {
   width: 549px;
 }
 
@@ -345,11 +343,11 @@ img {
 
 .contact-info__content {
   display: flex;
-  justify-content: center;  
-  align-items: center;      
-  flex-direction: row;   
-  width: 100%;  
-  gap: 9rem;            
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  gap: 9rem;
 }
 
 .contact-info__image {
@@ -357,20 +355,19 @@ img {
   height: 429px;
   overflow: hidden;
   object-fit: cover;
-  -webkit-box-shadow: 75px 60px 0px 0px rgba(255,255,255,1);
-  -moz-box-shadow: 75px 60px 0px 0px rgba(255,255,255,1);
-  box-shadow: 75px 60px 0px 0px rgba(255,255,255,1);
-
+  -webkit-box-shadow: 75px 60px 0px 0px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 75px 60px 0px 0px rgba(255, 255, 255, 1);
+  box-shadow: 75px 60px 0px 0px rgba(255, 255, 255, 1);
 }
 
 .contact-info__social-icons,
-.footer__icons{
+.footer__icons {
   display: flex;
   flex-direction: row;
   gap: 1.3rem;
 }
 
-.vacancies{
+.vacancies {
   width: 100%;
   margin: 0 auto;
   display: grid;
@@ -378,7 +375,7 @@ img {
   margin-top: 70px;
 }
 
-.vacancies__header{
+.vacancies__header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -386,18 +383,18 @@ img {
   padding-bottom: 2rem;
 }
 
-.vacancies__list{
+.vacancies__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.vacancies__view-all{
+.vacancies__view-all {
   cursor: pointer;
   margin-top: 2rem;
 }
 
-.vacancies__item{
+.vacancies__item {
   width: 1234px;
   height: 133px;
   background: rgba(71, 164, 245, 0.3) 0% 0% no-repeat padding-box;
@@ -406,57 +403,54 @@ img {
   flex-direction: row;
   align-items: center;
   box-sizing: border-box;
-  justify-content: space-between; 
-  gap: 3rem; 
+  justify-content: space-between;
+  gap: 3rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-
-.vacancies__position{
+.vacancies__position {
   font-size: 26px;
   font-weight: bold;
   margin-right: 4rem;
 }
 
-.vacancies__detail1{
+.vacancies__detail1 {
   margin-right: -2.8rem;
 }
 
-.vacancies__value{
-  color: #47A4F5;
+.vacancies__value {
+  color: #47a4f5;
 }
 
-.vacancies__button{
+.vacancies__button {
   width: 132px;
   height: 41px;
-  background: #47A4F5 0% 0% no-repeat padding-box;
+  background: #47a4f5 0% 0% no-repeat padding-box;
   border: none;
   color: white;
   border-radius: 3px;
 }
 
-.vacancies__detail{
+.vacancies__detail {
   display: flex;
   flex-direction: column;
 }
 
-.vacancies{
+.vacancies {
   margin-bottom: 132px;
 }
 
-.vacancies__view-all{
-  color: #47A4F5;
+.vacancies__view-all {
+  color: #47a4f5;
 }
 
-
-
-.materials{
-  background-color: rgba(225, 225, 225, 0.3); 
+.materials {
+  background-color: rgba(225, 225, 225, 0.3);
   margin-bottom: 13rem;
 }
 
-.materials-container{
+.materials-container {
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -468,28 +462,28 @@ img {
 }
 
 .materials.slide-image-container {
-  position: relative; 
-  width: 638px;       
-  height: 342px;   
-  overflow: hidden;   
+  position: relative;
+  width: 638px;
+  height: 342px;
+  overflow: hidden;
 }
 
-.materials-carousel-container img{
+.materials-carousel-container img {
   position: relative;
-  width: 100%;      
-  height: auto; 
+  width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
- .layer {
+.layer {
   position: absolute;
   top: 0;
   left: 2%;
   width: 96%;
   height: 100%;
-  background-color: rgba(71, 164, 245, 0.8); 
-  pointer-events: none; 
-  z-index: 1; 
+  background-color: rgba(71, 164, 245, 0.8);
+  pointer-events: none;
+  z-index: 1;
 }
 
 .slide_image {
@@ -497,29 +491,29 @@ img {
 }
 
 .slide-image-container__text-wrapper {
-  position: absolute;           
-  top: 50%;                     
-  left: 50%;                    
-  transform: translate(-50%, -50%); 
-  width: 496px;                 
-  height: 197px;                
-  background-color: white;      
-  padding: 20px;                
-  z-index: 2;                   
-  box-sizing: border-box;       
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 496px;
+  height: 197px;
+  background-color: white;
+  padding: 20px;
+  z-index: 2;
+  box-sizing: border-box;
 }
 
-.slide-image-container__text-wrapper h5{
+.slide-image-container__text-wrapper h5 {
   font-size: 25px;
-  color: #47A4F5;
+  color: #47a4f5;
 }
 
-.slide-image-container__text-wrapper span{
-  color: #47A4F5;
+.slide-image-container__text-wrapper span {
+  color: #47a4f5;
 }
 
-.slide-image-container__text-wrappe.price{
-   font-size: 1.6rem;
+.slide-image-container__text-wrappe.price {
+  font-size: 1.6rem;
 }
 .description {
   overflow: hidden;
@@ -530,18 +524,16 @@ img {
   white-space: normal;
 }
 
-
-
-.footer{
+.footer {
   box-sizing: border-box;
   padding-top: 2.5rem;
   height: 344px;
-  background: #2C4861 0% 0% no-repeat padding-box;
+  background: #2c4861 0% 0% no-repeat padding-box;
   display: flex;
   justify-content: center;
 }
 
-.footer .footer__brand{
+.footer .footer__brand {
   width: 291px;
   height: 93px;
   background-color: white;
@@ -551,30 +543,30 @@ img {
 }
 
 .footer__container {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: flex-start; 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 12rem;
 }
 
 .wrapper {
-  flex: 1 1 30%; 
-  max-width: 30%; 
+  flex: 1 1 30%;
+  max-width: 30%;
   color: white;
 }
 
-.footer__brand-name{
-  color: #2C4861;
+.footer__brand-name {
+  color: #2c4861;
 }
 
 .footer__catalogs {
-  display: flex; 
-  flex: 1 1 70%; 
-  justify-content: space-between; 
-  gap: 14rem; 
+  display: flex;
+  flex: 1 1 70%;
+  justify-content: space-between;
+  gap: 14rem;
 }
 
-.footer__catalog-title{
+.footer__catalog-title {
   color: white;
   font-size: 1.6rem;
 }
