@@ -580,7 +580,7 @@ img {
   justify-content: center;
 }
 
-.footer .footer__brand {
+.footer__brand {
   width: 291px;
   height: 93px;
   background-color: white;
@@ -597,7 +597,7 @@ img {
 }
 
 .wrapper {
-  flex: 1 1 30%;
+  flex: 1 1 20%;
   max-width: 30%;
   color: white;
 }
@@ -616,6 +616,7 @@ img {
 .footer__catalog-title {
   color: white;
   font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .footer__catalog-list {
@@ -625,4 +626,14 @@ img {
 
 .footer__catalog-item {
   margin: 5px 0;
+}
+
+.footer__copyright{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer__catalog-item {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
